@@ -1,0 +1,343 @@
+* {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+.header{
+    width: auto;
+    height: 50px;
+    background-color: rgb(44, 62, 80);
+    padding: 30px;
+}
+.logo{
+    float: left;
+    width: 40%;
+}
+.logo h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 13px;
+    margin-left: 20px;
+    letter-spacing: 2px;
+}
+.menu{
+    float: right;
+    margin-top: 19px;
+    width: 25%;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    padding-left: 20px;
+    margin-right: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.menu ul li a:hover{
+    color: rgb(100, 100, 100);
+}
+/*==============================================
+===================Hero area=============================*/
+.hero-area{
+    background-color: #1abc9c;
+    height: 800px;
+    width: 100%;
+    padding-top: 100px;
+}
+.content{
+    text-align: center;
+}
+.content img{
+    border-radius: 600px;
+    height: 400px;
+    width: 400px;
+    margin-bottom: 30px;
+}
+.content h2{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 60px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+}
+.content h3{
+    color: #fff;
+    font-size: 25px;
+    margin-top: 30px;
+    font-weight: 500;
+}
+.icon{
+    color: #fff;
+    font-size: 40px;
+    position: relative;
+}
+.icon::before{
+    content: '';
+    background: #fff;
+    width: 120px;
+    height: 3px;
+    position: absolute;
+    top: 20px;
+    left: 785px;
+    border-radius: 3px;
+}
+.icon::after{
+    content: '';
+    background: #fff;
+    width: 120px;
+    height: 3px;
+    position: absolute;
+    top: 20px;
+    right: 785px;
+    border-radius: 3px;
+}
+/*==============================================
+====================Portfolio area============================*/
+.Portfolio-area{
+    width: auto;
+    margin-top: 50px;
+    margin-left: 40px;
+    font-family:'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+.Portfolio-area h2{
+    font-size: 40px;
+    color: rgb(44, 62, 80);
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    font-weight: 780;
+}
+.icon-port{
+    color: rgb(44, 62, 80);
+    font-size: 40px;
+    position: relative;
+    margin-bottom: 30px;
+}
+.icon-port::before{
+    content: "";
+    background: rgb(44, 62, 80);
+    width: 120px;
+    height: 3px;
+    position: absolute;
+    top: 20px;
+    left: 785px;
+    border-radius: 3px;
+}
+.icon-port::after{
+    content: "";
+    background: rgb(44, 62, 80);
+    width: 120px;
+    height: 3px;
+    position: absolute;
+    top: 20px;
+    right: 785px;
+    border-radius: 10px;
+}
+.box{
+    width: 30%;
+    float: left;
+    margin-bottom: 45px;
+    margin-right: -200px;
+    padding-left: 147px;
+    position: relative;
+}
+.box img{
+    width: 70%;
+    border-radius: 10px;
+}
+.box::before{
+    content: "+";
+    background: #1abc9c;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0.9;
+    width: 244px;
+    height: 99%;
+    margin-bottom: 39px;
+    padding-left: 76px;
+    margin-left: 230px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 250px;
+    padding-right: 73px;
+    visibility: hidden;
+}
+.box:hover::before{
+    visibility: visible;
+    cursor: pointer;
+}
+/*==============================================
+====================About area============================*/
+.about-area{
+    width: 100%;
+    height: 500px;
+    background:#1abc9c;
+    padding-top: 60px;
+    margin-top: 40px;
+    clear: both;
+}
+.about-area .content h2{
+    font-size: 35px;
+    margin-bottom: 0px;
+}
+.about-area .content .icon i{
+    font-size: 30px;
+}
+.about-area .content .icon{
+    margin-top: 0px;
+}
+.text {
+    width: 800px;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 30px;
+}
+.download-btn{
+    width: 200px;
+    border: 2px solid white;
+    padding: 20px 30px;
+    border-radius: 7px;
+    text-decoration: none;
+    color:#fff;
+    font-size: 20px;
+    margin-top: 80px;
+    margin-left: 845px;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+.download-btn:hover{
+    background:white;
+    color: black;
+    transition: .3s;
+}
+/*==============================================
+=====================Contact area===========================*/
+.contact-area{
+    width: 100%;
+    height: 650px;
+    margin-top: 90px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.icon-black{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    position: relative;
+    margin-bottom: 30px;
+}
+.icon-black::before{
+    content: "";
+    background: rgb(0, 0, 0);
+    width: 120px;
+    height: 3px;
+    position: absolute;
+    top: 20px;
+    left: 785px;
+    border-radius: 10px;
+}
+.icon-black::after{
+    content: "";
+    background: rgb(0, 0, 0);
+    width: 120px;
+    height: 3px;
+    position: absolute;
+    top: 20px;
+    right: 785px;
+    border-radius: 10px;
+}
+.contact-form {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 46px;
+}
+.input-box {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 9px;
+    border: none;
+    border-bottom: 1px solid #000;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.submit-btn {
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+    border-radius: 9px;
+    margin-top: 18px;
+    width: 100%;
+    height: 55px;
+    border: none;
+    cursor: pointer;
+}
+/*==============================================
+=====================Footer area===========================*/
+.footer-area {
+    height: 200px;
+    background: #2c3e50;
+    color: #fff;
+    display: flex;
+    padding: 20px;
+    text-align: center;
+}
+.footer-box{
+    width: 33%;
+}
+.footer-box h2{
+    margin-left: 20px;
+    text-decoration: underline;
+}
+.footer-box p{
+  
+    margin-top: 35px;
+    font-size: 17px;
+   
+}
+.footer-box ul li{
+    display: inline-block;
+    padding: 55px 30px;
+}
+.footer-box ul li a{
+    font-size: 21px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 12px;
+    border-radius: 50%;
+    
+}
+.footer-box ul li a:hover{
+    background:white;
+    color: #000;
+    transition: .3s;
+}
+/*==============================================
+==================Copyright area==============================*/
+.copyright-area {
+    background: #000;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
